@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GoogleMapsTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SAVE_COORDINATES">Save coordinates</string>
+    <string name="LIST_OF_POINTS">List of points</string>
+    <string name="COORDINATES">Coordinates</string>
+    <string name="LATITUDE">Latitude</string>
+    <string name="SAVE">Save</string>
+    <string name="LONGITUDE">Longitude</string>
+    <string name="DEGREE_LABEL">%s°</string>
+    <string name="POINT">Point</string>
+</resources>

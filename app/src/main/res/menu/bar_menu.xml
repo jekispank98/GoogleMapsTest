@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/save_location"
+        android:title="@string/SAVE_COORDINATES" />
+
+    <item
+        android:id="@+id/list_of_points"
+        android:title="@string/LIST_OF_POINTS" />
+</menu>
