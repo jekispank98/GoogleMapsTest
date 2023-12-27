@@ -3,10 +3,7 @@ package com.example.googlemapstest
 import android.app.AlertDialog
 import android.app.Dialog
 import android.os.Bundle
-import android.util.Log
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import com.example.domain.model.LocationModel
 import com.example.googlemapstest.databinding.FragmentDialogBinding
@@ -37,7 +34,7 @@ class DialogMenuFragment : DialogFragment() {
                 if (latitude != null && longitude != null) {
                     viewModel.addLocation(
                         LocationModel(
-                            0, latitude!!, longitude!!, null
+                            0, latitude!!, longitude!!
                         )
                     )
                 }

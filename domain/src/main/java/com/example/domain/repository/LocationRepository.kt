@@ -1,4 +1,4 @@
-package com.example.domain.usecase
+package com.example.domain.repository
 
 import com.example.domain.model.LocationModel
 

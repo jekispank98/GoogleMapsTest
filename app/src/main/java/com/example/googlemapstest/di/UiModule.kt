@@ -11,7 +11,9 @@ val uiModule = module {
             getListOfLocationUseCase = get(),
             addLocationUseCase = get(),
             updateLocationUseCase = get(),
-            deleteLocationUseCase = get()
+            deleteLocationUseCase = get(),
+            startTcpServiceUseCase = get(),
+            stopTcpServiceUseCase = get()
         )
     }
 }
